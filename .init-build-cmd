@@ -1,0 +1,4 @@
+{
+    "command": "npm install && npx tsc --noEmit && npm test -- --ci",
+    "working_directory": "/home/kavia/workspace/ridewave-main-container-for-ridewave-5997-6004/core_component_for_ridewave"
+}
