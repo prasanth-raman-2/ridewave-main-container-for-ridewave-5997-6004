@@ -1,1 +1,1 @@
-// Booking feature exports will be added here
+export { default as BookingInterface } from './BookingInterface';
