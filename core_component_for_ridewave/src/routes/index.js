@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import MainLayout from '../layouts/MainLayout';
 import AuthLayout from '../layouts/AuthLayout';
-import { BookingInterface } from '../features/booking';
+import { LandingScreen } from '../features/booking';
 
 const AppRoutes = () => {
   return (
@@ -14,7 +14,7 @@ const AppRoutes = () => {
 
       {/* Main app routes */}
       <Route element={<MainLayout />}>
-        <Route index element={<BookingInterface />} />
+        <Route index element={<LandingScreen />} />
       </Route>
     </Routes>
   );
